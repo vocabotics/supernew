@@ -1,0 +1,26 @@
+{
+  "directories": [
+    "src",
+    "src/pages",
+    "src/components"
+  ],
+  "files": [
+    "src/App.tsx",
+    "src/pages/Home.tsx"
+  ],
+  "pages": [
+    "Home"
+  ],
+  "components": [
+    "App"
+  ],
+  "functions": [
+    "App",
+    "Home"
+  ],
+  "dependencies": [
+    "@/components/ui/button",
+    "framer-motion",
+    "./components/theme-provider"
+  ]
+}
